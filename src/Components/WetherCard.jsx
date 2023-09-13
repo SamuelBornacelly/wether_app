@@ -28,7 +28,7 @@ const WetherCard = ({ weather, temp }) => {
       </div>
       <h2 className="article__h2">{isCelsius ? `${temp?.celsius} °C`: `${temp?.farenheit} °F`}</h2>
       <button className="article__button" onClick={handleChangeTemp}>{isCelsius ? 'Change to °F': 'Change to °C'}</button>
-      <img className='container__img' src="../public/4.png" alt="" />
+      <img className='container__img' src="../4.png" alt="" />
     </article>
   )
 }
